@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="css/advice.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 style="color: aliceblue;" id="This" >please dear tell me how you feel and I will give you my recomandation.</h2>
+        <span style="color:#F9B203;" id="hide">That will help you to decide what you have to do</span>
+        <div class="inputs">
+            <div class="column">
+                <input type="checkbox" name="head[]" class="head" value="Headache"><b>headache</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="runny nose"><b>runny nose</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="cough"><b>cough</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="fever"><b>fever</b><br>
+                <input onclick="check()" type="submit" class="btn">
+            </div>
+             
+            <div class="column">
+                
+                <input type="checkbox" name="head[]" class="head" value="difficulty breathing"><b>difficulty breathing</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="Chest pain"><b>Chest pain</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="Pink eye"><b>Pink Eye</b><br><br>
+                <input type="checkbox" name="head[]" class="head" value="Vomiting"><b>Vomitng</b><br>
+            </div>
+         
+
+        </div>
+
+        <div class="popup1" id="popup1">
+            <i class='bx bx-question-mark' style='color:#ffffff'></i>
+            <p >please select how you feel <br> from the boxes listed below </p>
+
+            <input type="submit" onclick="closepopup1()"  value="OK" class="Ok">
+        </div>
+        <div class="popup2" id="popup2">
+            <img src="images/thinking.jpg" alt="">
+            <p>This may or may not COVID-19 So <br>
+                I reccomend you to take some medicene related to <br>
+                your symptoms .i.e <br>
+                1. if it is headache take paracitamol or diclo. <br>
+                2. if it is cough take Amoxacillin. etc
+
+            </p>
+            <input type="submit" onclick="closepopup2()" value="OK" class="Ok">
+        </div>
+        <div class="popup3" id="popup3">
+            <img src="images/seeDoctor.webp" alt="">
+            <p>ooow! This is not good <br>
+                I think you should see your Doctor before it gets worse <br>
+                please do it in hurry
+            </p>
+            <input type="submit" onclick="closepopup3()" value="OK" class="Ok">
+        </div>
+        <div class="popup4" id="popup4">
+            <img src="images/quarantine.jpg" alt="">
+            <p>oooh! this is not really good. <br>
+            I storngly suggest you to stay away from people. <br>
+            and go any nearest Quarantine to save your beloved one. <br>
+             <a href="treatement.php">need a help with treatment ?</a>
+              
+            </p>
+            <input type="submit" onclick="closepopup4()" value="OK" class="Ok">
+        </div>
+        <div class="submit">
+        
+        
+        </div>
+    </div>
+    
+    
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

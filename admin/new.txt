@@ -1,0 +1,37 @@
+convergence 
+an imortant cahrachtersitucs of routing protocol
+is how quickly it coverges when where is a change
+
+
+
+
+a network is not completlty oparable until the
+has converged thefore most networks require short convergence
+convergence properties include the spped of propagtion of routing information and the calculation of optimal paths
+the faster the convergence the better the routing protocol
+Generally RIP and IGRP are slow to converge ehre as EIGRP
+ OSPF ans IS-IS  are faster  to converge
+
+ * preventong routing loops -bsed on subnets
+ Hold-down timers:- allow routers to not accept any changes 
+ split horizon rule:- a router should not advertise network through the interface from which the update come 
+
+
+
+
+
+
+ classfull routing protocols cannot be usef when a network is sub-netted using more than one subnetting mask
+
+ 
+
+ final exam
+
+ # socket programming 
+ client to server
+
+ security IPSEC
+   IDS and IPS 
+   # connection oriented network 
+   # streaming technique 
+chap 345 direct question  

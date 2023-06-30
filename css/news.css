@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin san', sans-serif;
+    box-sizing: border-box;
+  }
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+  align-items: center;
+  padding: 15px 15px 25px 15px;
+  margin-bottom: 10px;
+  background-color: #b9691d;
+  border-radius: 20px;
+
+}
+.container .show_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.container .inputs{
+    display: block;
+    height: 140px;
+    margin-bottom: 15px;   
+}
+.container .inputs input,textarea{
+    margin-bottom: 15px;
+}
+.container .btns{
+    height: 50px;
+  
+    margin-bottom: 20px;
+    justify-content: center;
+   font-size: 22px;
+  
+    justify-content: space-between;
+}
+ .btns #upload:hover{
+    border:2px solid #b9691d;
+   background-color: #f3eee7;
+    color: #000;
+    border-radius: 30px;
+    transition: all 0.4s all;
+    transform: scaleX(1.1);
+   
+}
+#heading {
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #c56e1d;
+    color: #fff;
+    outline: none;
+    font-weight: 600;
+    border: none;
+}
+#text{
+    width: 100%;
+    padding: 10px;
+    background-color: #c47124;
+    color: #fff;
+    outline: none;
+    font-weight: 600;
+    border: none;
+}
+   
+#upload{
+    width:60px;
+    height: 30px;
+    color: #fff;
+   background-color:  #141413;
+   border-radius: 30px;
+}
+
+.show_image img{
+    width: 100%;
+    height: 100%
+}
+.column{
+    float: left;
+   width: 33.33%;
+   padding: 5px;
+   width: 350px;
+   min-height: 550px;
+   margin-left: 20px;
+   margin-bottom: 30px;
+   background-color: rgb(42, 37, 37);
+   direction: ltr;
+   display: flexbox;
+    border: 4px solid rgb(213, 144, 17);
+ 
+}
+.column:hover{
+    box-shadow: -30px 30px 30px  rgba(115, 125, 134, 0.847);
+        transform: translate(10px, -15px);
+}
+.row{
+    display: flex;
+  
+   border: 10px solid white;
+
+}
+h3{
+    color: #fb9232;
+    font-size: 27px;
+    padding: 20px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.column img{
+    width: 290px;
+    height: 300px;
+   
+    text-align: center;
+    /* border: 1px dotted white; */
+    
+}
+.containe{
+    
+    width: 1700px;
+    height: 1500px;
+    position: relative;
+
+   padding:15px 15px 15px 50px;
+   margin: 15px 35px;
+   /* border: 1px solid white; */
+ text-align: center;
+   justify-content: center;
+
+}
+.containe h3{
+    color: rgb(235, 152, 9);
+}
+.containe p {
+    color: rgb(134, 129, 121);
+  
+}
+.containe::-webkit-scrollbar{
+    width: 0px;
+}
+.containe .row .column{
+    border: 1px solid white;
+}
+.column a{
+    text-decoration: none;
+     padding: 5px;
+
+    border-radius: 20px;
+    background-color:#fb9232 ;
+    color:#fff;
+}
+.column a:hover{
+    background-color: transparent;
+    border: 2px solid #fb9232;  
+      transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+
+
+/* update contact */
+.all{
+    width: 370px;
+    height: 570px;
+    border: 1px solid #fb9232;
+    color: #fff;
+    padding-top: 20px;
+    padding-left:5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+}
+.all label{
+ 
+    margin-top: 30px;
+    padding-left: 5px;
+    color: #fb9232;
+    font-weight: 600;
+
+    
+}
+.all input{
+    width: calc(100% - 25px);
+    height: 35px;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    outline:3px #fb9232;
+    margin-bottom: 5px;
+    margin-top: 8px;
+
+}
+.all textarea{
+    width: calc(100% - 25px);
+    margin-left: 20px; 
+    padding-left: 5px;
+    outline:3px #fb9232;
+    border: none;
+    font-size: 17px;
+
+}
+.all button{
+    margin-left: 40%;
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    background-color: #fb9232;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.all button:hover{
+    background-color: #141413;
+    border: 2px solid #fb9232;
+    color: #fff;
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}

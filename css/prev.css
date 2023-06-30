@@ -1,0 +1,66 @@
+
+body{
+
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 21px;
+}
+.hoo {
+color: white;
+}
+.hoo span{
+    color: rgb(255, 189, 6);;
+}
+.all{
+    color: white;
+    width: 1300px;
+    height: 2320px;
+    margin-left: 6%;
+  margin-right: 13%;
+    position: absolute;
+ 
+
+}
+.all img{
+
+
+}
+.all p{
+    margin-right: 30%;
+}
+.all span{
+    color: rgb(255, 189, 6);
+}
+.button{
+  background-color:#F9B203;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 10px 24px;
+  border-radius:20px;
+  transition: .3s;
+  ;
+}
+
+.button:hover{
+  background-color: transparent;
+  border: 2px solid #F9B203;
+  cursor: pointer;
+}
+.moo{
+    color:white;
+    margin-left:0%;
+    width: 1300px;
+    height: 960px;
+  margin-right: 13%;
+    position: absolute;
+   
+
+}
+.moo span{
+    color:  rgb(255, 189, 6);
+}
+.moo h2{
+    font-size: 35px;
+}

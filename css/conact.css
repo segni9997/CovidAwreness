@@ -1,0 +1,20 @@
+ .contactUs {
+     display: block;
+     background-color: #000;
+     width: 100%;
+     height: 100vh;
+ }
+
+ .contactUs .text {
+     width: 100%;
+     height: 100px;
+     background-color: #191919;
+ }
+
+ .contactUs .insertedData {
+     display: block;
+ }
+
+ .contactUs .insertedData form {
+     display: block;
+ }

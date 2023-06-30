@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+      height: 100vh;
+    background-image: url(../images/covid0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+span{
+    color: #fb9323;
+}
+form .formpage{
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+    width:350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #191933;
+    padding: 10px;
+    opacity:0.9;
+}
+.formpage .head{
+color: #fff;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+text-align: center;
+padding: 20px;
+
+} 
+.formpage .inputs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+
+}
+.inputs label{
+    color: #fb9323;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.inputs input{
+    background-color: #191933;
+    border: none;
+    border-bottom: 2px dotted #fb9323;
+    color: #fff;
+    outline: none;
+     margin-right: 40px;
+     height: 35px;
+     font-size:19px;
+     justify-content: center;
+     padding-left: 10px;
+}
+.formpage .inputs a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+.formpage .inputs a:hover{
+    text-decoration:underline;
+}
+.formpage .login{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.formpage .login input{
+    width: 70px;
+    height: 40px;
+    background-color: #fb9323;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+        border-radius: 20px;
+        margin-top: 25px;
+
+}
+
+.formpage .login input:hover{
+    background-color: #191933;
+    color: #fff;
+    border: 2px dotted #fb9323 ;
+    transition:all 0.3s ease-in-out;
+    transform:scale(1.1);
+    cursor: pointer;
+    
+}
